@@ -30,9 +30,8 @@ if(score0 > score1){
         wrapup.innerHTML+="<br>Points: " +mvpnts  +"<br>";
         
         if (mvpnts > 19){
-			wrapup.innerHTML+="<br><br>This player's offensive drive of " +mvpnts + " points led " + tm0[0].innerHTML +" to victory<br>";
-		}
-		wrapup.innerHTML+=tm0[0].innerHTML +" triumphs over  "+tm1[0].innerHTML + " " +  score0 + " to " +score1;
+		wrapup.innerHTML+="<br><br>This player's offensive drive of " +mvpnts + " points led " + tm0[0].innerHTML +" to victory<br>";
+	}
     }
     // if its a close game trigger this block
     else if (score0 - score1 <= 15){
@@ -46,10 +45,10 @@ if(score0 > score1){
         wrapup.innerHTML+="<br>Points: " +mvpnts  +"<br>";
         
         if (mvpnts > 19){
-			wrapup.innerHTML+="<br><br>This player's offensive drive of " +mvpnts + " points led " + tm0[0].innerHTML +" to victory<br>";
-		}
-		wrapup.innerHTML+=tm0[0].innerHTML +" triumphs over  "+tm1[0].innerHTML +" " + score0 + " to " +score1;
+		wrapup.innerHTML+="<br><br>This player's offensive drive of " +mvpnts + " points led " + tm0[0].innerHTML +" to victory<br>";
+	}
     }
+	wrapup.innerHTML+=tm0[0].innerHTML +" triumphs over  "+tm1[0].innerHTML +" " + score0 + " to " +score1;
 }
 
 // if team 1 wins trigger this
@@ -68,8 +67,7 @@ else if (score1 > score0){
         
         if (mvpnts > 19){
 			wrapup.innerHTML+="<br><br>This player's offensive drive of " +mvpnts + " points led " + tm1[0].innerHTML +" to victory<br>";
-		}
-        wrapup.innerHTML+=tm1[0].innerHTML +" triumphs over  "+tm0[0].innerHTML +" " + score1 + " to " +score0;
+	}
     }
     // if its a close game trigger this block
     else if (score1 - score0 <= 15){
@@ -85,8 +83,8 @@ else if (score1 > score0){
         if (mvpnts > 19){
 			wrapup.innerHTML+="<br><br>This player's offensive drive of " +mvpnts + " points led " + tm1[0].innerHTML +" to victory<br>";
 		}
-		wrapup.innerHTML+=tm1[0].innerHTML +" triumphs over  "+tm0[0].innerHTML +" " + score1 + " to " +score0;
     }
+	wrapup.innerHTML+=tm1[0].innerHTML +" triumphs over  "+tm0[0].innerHTML +" " + score1 + " to " +score0;
 }
 // if its a tie trigger this block
 else{
