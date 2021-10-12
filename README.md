@@ -3,8 +3,8 @@ A project to create web based game simulators for different sports, most notably
 
 # Long Term Goals
 <ol>
-  <li> Have both College Basketball and College Football Sims completed</li>
-  <li> Include over 100 teams</li>
+  <li> ~~Have both College Basketball and College Football Sims completed~~</li>
+  <li> ~~Include over 100 teams~~</li>
   <li> Add Pro Sims</li>
   <li> Baseball</li>
   <li> Hockey</li>
@@ -13,12 +13,20 @@ A project to create web based game simulators for different sports, most notably
 # Sims implemented
 <ul>
   <li>College Basketball</li>
+  <li>College Football</li> 
 </ul>
 
 # College Basketball Sim Screenshots
-![image](https://user-images.githubusercontent.com/17995774/136668125-f649ea0d-59c3-4c31-90c8-4b0dd63ba1a9.png)
+![image](https://i.imgur.com/sTfztCg.png)
 
-![image](https://user-images.githubusercontent.com/17995774/136668150-77d41fec-d3e7-4f1a-8863-7540bfbe89bb.png)
+![image](https://i.imgur.com/G2Za069.png)
+
+# College Football Sim Screenshots
+![image](https://i.imgur.com/9azvdOa.png)                                                                      
+
+![image](https://i.imgur.com/NTW9n9W.png)                                                                      
+
 
 # License
 This project is licensed under GPLv3. Copyright 2021 Markmental
+
