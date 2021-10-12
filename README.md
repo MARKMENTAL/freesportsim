@@ -3,8 +3,8 @@ A project to create web based game simulators for different sports, most notably
 
 # Long Term Goals
 <ol>
-  ~~<li>Have both College Basketball and College Football Sims completed</li>~~
-  ~~<li>Include over 100 teams</li>~~
+  ~~Have both College Basketball and College Football Sims completed~~
+  ~~Include over 100 teams~~
   <li> Add Pro Sims</li>
   <li> Baseball</li>
   <li> Hockey</li>
